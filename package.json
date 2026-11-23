@@ -1,0 +1,27 @@
+{
+  "name": "scholar-hub",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Nền tảng tra cứu bài báo khoa học đa nguồn, trích dẫn tự động & dịch PDF song song (Split-View)",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "postinstall": "node scripts/copy-pdf-worker.mjs"
+  },
+  "dependencies": {
+    "lucide-react": "^1.45.0",
+    "next": "16.3.5",
+    "pdfjs-dist": "^4.10.38",
+    "react": "19.2.8",
+    "react-dom": "19.2.8"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
