@@ -6,8 +6,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "postinstall": "node scripts/copy-pdf-worker.mjs"
+    "start": "next start"
   },
   "dependencies": {
     "lucide-react": "^1.45.0",

@@ -6,3 +6,4 @@ out/
 *.tsbuildinfo
 next-env.d.ts
 public/pdf.worker.min.mjs
+DAY_LEN_GITHUB.bat
